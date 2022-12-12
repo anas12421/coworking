@@ -1,0 +1,63 @@
+.menu {
+  // margin-top: 48px;
+  // background-color: yellow;
+  position: fixed;
+  width: 100%;
+  top: 48px;
+  z-index: 9999;
+}
+
+.menu_ex{
+  top: 0;
+  animation: menu_ex 1s;
+  -webkit-animation: menu_ex 1s;
+  padding: 15px 0 !important;
+  background-color: #FD5B2F;
+}
+
+
+@keyframes menu_ex {
+  0%{
+    top: -50px;
+  }
+  100%{
+    top: 0;
+  }
+}
+
+.menu ul li a {
+  padding: 0 !important;
+  font-family: 'Cera Pro', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  text-transform: uppercase;
+  color: #686C75 !important;
+  margin-right:  38px;
+}
+
+.menu ul li a:hover{
+  color: #FD5B2F !important;
+}
+.menu ul li a.active{
+  color: #FD5B2F !important;
+}
+
+.menu .logo {
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.menu_ex path {
+  fill: white;
+}
+
+.menu_ex ul li a {
+  color: white !important;
+}
+
+.menu ul li a:hover{
+  color: #000 !important;
+}
+.menu ul li a.active{
+  color: #000 !important;
+}

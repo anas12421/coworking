@@ -1,0 +1,30 @@
+#gallery {
+  padding-top: 150px;
+
+  .gal_text {
+    h3 {
+      font-family: 'Gilroy-SemiBold', sans-serif;
+      font-size: 18.8054px;
+      line-height: 22px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #FD5B2F;
+    }
+
+    h2 {
+      font-family: 'Gilroy-Medium', sans-serif;
+      font-size: 52.2371px;
+      line-height: 71px;
+      color: #000000;
+    }
+    .gal_text_img{
+      padding-top: 10px;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      img{
+        padding-top: 27px;
+      }
+    }
+  }
+}

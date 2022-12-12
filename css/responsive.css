@@ -1,0 +1,387 @@
+@media (max-width:767.98px)
+{
+
+  
+body::after,
+body::before{
+display: none;
+}
+
+.menu {
+background-color: white;
+padding: 20px 0 !important;
+top: 0;
+}
+
+.menu button{
+  border: none;
+}
+
+.menu button:focus{
+  box-shadow: none;
+}
+
+.menu button i{
+  color: black !important;
+  font-size: 22px;
+}
+
+.menu ul{
+  padding-top: 20px;
+}
+
+.menu ul li a{
+  margin: 0 !important;
+  padding: 7px 0 !important;
+}
+
+.menu_ex {
+	background-color: #FD5B2F !important;
+}
+
+.menu_ex button i{
+  color: white !important;
+}
+
+.menu_ex ul li a.active{
+  color: black !important;
+}
+
+#banner {
+  padding-top: 120px;
+}
+
+.banner_input {
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  justify-content: space-around !important;
+}
+
+.banner_text{
+  text-align: center;
+}
+
+.banner_input .first_select select {
+  font-size: 14px;
+}
+
+.banner_input .first_select i {
+  font-size: 14px;
+  padding-right: 0;
+}
+
+.banner_input_btn a {
+  padding: 10px 15px;
+  font-size: 12px;
+}
+
+.banner_img{
+  padding-top: 20px;
+}
+
+
+
+.brand_img{
+  flex-wrap: wrap;
+}
+
+
+#service::before,
+#service::after {
+display: none;
+}
+
+.service_text{
+  text-align: center;
+  padding-top: 40px;
+}
+
+
+.service_btn a {
+  padding: 18px 20px;
+  margin:0 10px;
+}
+
+
+.vision_text{
+  text-align: center;
+}
+
+.vision_image{
+  padding-top: 30px;
+}
+
+.solution_text{
+  text-align: center;
+}
+
+.solution_slider_main{
+  margin-top: 30px;
+}
+
+.chose_item h2 {
+	font-size: 13.895px;
+}
+.chose_item p {
+	font-size: 10px;
+}
+
+.gal_text{
+  text-align: center;
+}
+
+.gal_text_img{
+  justify-content: space-around;
+}
+
+.gal_text_img img{
+  width: 50%;
+  padding: 0 10px;
+}
+
+.gal_slider_main{
+  margin-top: 30px;
+}
+.member_text{
+  text-align: center;
+}
+
+.member_text h2{
+  text-align: center;
+}
+
+#member .member_text h2 {
+	text-align: center;
+}
+
+
+#member .member_text .member_btn a {
+	margin: 0 18px;
+  padding: 18px 25px;
+  font-size: 14px;
+}
+
+
+
+.member_img{
+  padding-top: 30px;
+}
+
+#footer{
+  padding-bottom: 50px;
+}
+
+.footer_detail{
+  text-align: center;
+}
+
+
+.footer_list{
+  margin-top: 30px;
+}
+
+#footer .footer_list.for_align{
+  text-align: center;
+}
+
+#footer .footer_list .footer_social a{
+  margin: 0 5px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+@media (min-width:768px) and (max-width:991.98px) 
+{
+
+  body::before,
+  body::after {
+    display: none;
+}
+
+.menu {
+  background-color: white;
+  padding: 20px 0 !important;
+  }
+  
+  .menu button{
+    border: none;
+  }
+  
+  .menu button:focus{
+    box-shadow: none;
+  }
+  
+  .menu button i{
+    color: black !important;
+    font-size: 22px;
+  }
+
+  .menu_ex {
+    background-color: #FD5B2F !important;
+  }
+  
+  .menu_ex button i{
+    color: white !important;
+  }
+
+  .menu ul{
+    padding-top: 20px;
+  }
+  
+  .menu ul li a{
+    margin: 0 !important;
+    padding: 7px 0 !important;
+  }
+  
+  .menu_ex ul li a.active{
+    color: black !important;
+  }
+
+
+  #banner {
+    padding-top: 150px;
+}
+
+
+.banner_input {
+  width: 100%;
+  justify-content: space-around !important;
+  align-items: center !important;
+  padding: 23px 0;
+}
+
+.banner_img{
+  margin-top: 20px;
+}
+
+.service_text{
+  margin-top: 50px;
+}
+
+.vision_image{
+  margin-top: 40px;
+}
+.solution_slider_main {
+  margin-top: 40px;
+}
+
+#gallery .gal_text .gal_text_img {
+ justify-content: space-around;
+}
+
+.gal_slider_main{
+  margin-top: 40px;
+}
+
+.member_img{
+  margin-top: 40px;
+}
+
+.footer_detail{
+  text-align: center;
+}
+
+#footer .footer_detail p {
+  padding: 0 120px;
+  padding-top: 13px;
+}
+
+.footer_list{
+  margin-top: 40px;
+}
+
+
+.footer_list.for_align{
+  text-align: center;
+}
+
+#footer {
+  padding-bottom: 70px;
+}
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width: 992px) and (max-width:1199.98px)
+{
+
+  body::before {
+    width: 700px;
+    height: 700px;
+    right: 0;
+    top: 0;
+}
+
+body::after {
+  width: 650px;
+  height: 770px;
+  left: 0;
+  top: 0;
+}
+
+.banner_input {
+  width: 630px;
+  padding: 23px 0;
+  justify-content: space-around !important;
+  margin-top: 30px;
+}
+
+#service::before {
+  width: 50%;
+  height: 50%;
+  top: 0;
+  left: 0;
+}
+#service::after {
+  width: 50%;
+  height: 50%;
+  top: 0;
+  right: 0;
+}
+
+.chose_item h2 {
+  font-size: 16.8948px;
+}
+
+#gallery .gal_text .gal_text_img {
+  justify-content: space-around ;
+}
+
+
+
+
+
+
+
+
+
+
+}

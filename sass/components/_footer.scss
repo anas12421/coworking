@@ -1,0 +1,100 @@
+#footer {
+  margin-top: 77px;
+  padding-top: 140px;
+  padding-bottom: 107px;
+  position: relative;
+  z-index: 1;
+
+
+  &::after {
+    position: absolute;
+    content: '';
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(253, 91, 47, 0) 0%, #FD5B2F 100%);
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 0.1;
+  }
+
+
+
+  .footer_detail {
+    p {
+      padding-top: 13px;
+      font-family: 'Gilroy-Regular', sans-serif;
+      font-size: 16.7159px;
+      line-height: 31px;
+      color: #000000;
+    }
+  }
+
+  .footer_list {
+    h2 {
+      font-family: 'Gilroy-SemiBold', sans-serif;
+      font-size: 20.8948px;
+      color: #FD5B2F;
+      text-transform: capitalize;
+      padding-bottom: 18px;
+    }
+
+    ul {
+      li {
+        a {
+          font-family: 'Gilroy-Regular', sans-serif;
+          font-size: 16.7159px;
+          line-height: 20px;
+          color: #000000;
+          padding-bottom: 11px;
+          transition: all 0.3s ease;
+          -webkit-transition: all 0.3s ease;
+          -moz-transition: all 0.3s ease;
+          -ms-transition: all 0.3s ease;
+          -o-transition: all 0.3s ease;
+
+          &:hover {
+            color: #FD5B2F;
+            transform: translateX(10px);
+            -webkit-transform: translateX(10px);
+            -moz-transform: translateX(10px);
+            -ms-transform: translateX(10px);
+            -o-transform: translateX(10px);
+          }
+        }
+      }
+    }
+
+    .footer_social {
+      a {
+        width: 42px;
+        height: 42px;
+        background-color: #ffffff;
+        color: #FD5B2F;
+        line-height: 42px;
+        border-radius: 50%;
+        -webkit-border-radius: 50%;
+        -moz-border-radius: 50%;
+        -ms-border-radius: 50%;
+        -o-border-radius: 50%;
+        text-align: center;
+        transition: all 0.3s ease;
+        margin-right: 4px;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+
+        &:hover {
+          color: white;
+          background-color: #FD5B2F;
+          transform: scale(1.1) translateY(-5px);
+          -webkit-transform: scale(1.1) translateY(-5px);
+          -moz-transform: scale(1.1) translateY(-5px);
+          -ms-transform: scale(1.1) translateY(-5px);
+          -o-transform: scale(1.1) translateY(-5px);
+        }
+      }
+    }
+  }
+}

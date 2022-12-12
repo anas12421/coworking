@@ -1,0 +1,90 @@
+#member {
+  padding-top: 211px;
+
+  .member_text {
+    h3 {
+      font-family: 'Gilroy-SemiBold', sans-serif;
+      font-size: 18.8054px;
+      line-height: 22px;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: #FD5B2F;
+    }
+
+    h2 {
+      font-family: 'Gilroy-Medium', sans-serif;
+      font-size: 52px;
+      line-height: 71px;
+      letter-spacing: 0em;
+      text-align: left;
+
+    }
+
+    p {
+      font-family: 'Avenir', sans-serif;
+      font-size: 16px;
+      font-weight: 500;
+      line-height: 38px;
+      letter-spacing: 0em;
+
+    }
+
+    .member_btn {
+      margin-top: 70px;
+
+      a {
+        padding: 18px 39px;
+        border: 1.04474px solid #FD5B2F;
+        border-radius: 5.22371px;
+        -webkit-border-radius: 5.22371px;
+        -moz-border-radius: 5.22371px;
+        -ms-border-radius: 5.22371px;
+        -o-border-radius: 5.22371px;
+        font-family: 'Gilroy-Medium', sans-serif;
+        font-size: 16.7159px;
+        line-height: 20px;
+        color: #FD5B2F;
+        transition: all 0.3s ease;
+        -webkit-transition: all 0.3s ease;
+        -moz-transition: all 0.3s ease;
+        -ms-transition: all 0.3s ease;
+        -o-transition: all 0.3s ease;
+        margin-right: 36px;
+        position: relative;
+        z-index: 1;
+        overflow: hidden;
+
+        &:hover {
+          color: white;
+        }
+
+        &::after {
+          position: absolute;
+          content: '';
+          height: 0;
+          width: 100%;
+          background-color: #FD5B2F;
+          top: 0;
+          left: 0;
+          transition: all 0.5s ease;
+          -webkit-transition: all 0.5s ease;
+          -moz-transition: all 0.5s ease;
+          -ms-transition: all 0.5s ease;
+          -o-transition: all 0.5s ease;
+          z-index: -1;
+          border-bottom-left-radius: 50%;
+          border-bottom-right-radius: 50%;
+        }
+
+        &:hover::after {
+          height: 180px;
+          border-radius: 0;
+          -webkit-border-radius: 0;
+          -moz-border-radius: 0;
+          -ms-border-radius: 0;
+          -o-border-radius: 0;
+        }
+      }
+    }
+  }
+}
